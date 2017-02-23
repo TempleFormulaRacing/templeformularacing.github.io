@@ -124,8 +124,8 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-  background-color: black;
+  /*background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;*/
+  /*background-color: black;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -142,6 +142,18 @@ a:focus {
   font-size: 18px;
 }
 @media (min-width: 768px) {
+
+
+  .splash-video {
+      position: absolute;
+      top: -15px;
+      max-height: 100vw;
+      opacity: .3;
+      /*box-shadow: 0 0 180px 80px black inset;*/
+    }
+
+
+
   .intro {
     height: 100%;
     padding: 0;
@@ -153,6 +165,21 @@ a:focus {
     font-size: 26px;
   }
 }
+
+
+.splash-video {
+  position: absolute;
+  top: -15px;
+  max-height: 100vw;
+  opacity: 0;
+  min-width: 100%
+  /*box-shadow: 0 0 180px 80px black inset;*/
+}
+
+
+
+
+
 .btn-circle {
   width: 70px;
   height: 70px;
