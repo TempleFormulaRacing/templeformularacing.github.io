@@ -148,7 +148,7 @@ a:focus {
       position: absolute;
       top: -15px;
       max-height: 100vw;
-      opacity: .3;
+      opacity: .5;
       /*box-shadow: 0 0 180px 80px black inset;*/
     }
 
@@ -171,8 +171,9 @@ a:focus {
   position: absolute;
   top: -15px;
   max-height: 100vw;
-  opacity: 0;
-  min-width: 100%
+  /*opacity: 0;*/
+  min-height:100%;
+  min-width: 100%;
   /*box-shadow: 0 0 180px 80px black inset;*/
 }
 
