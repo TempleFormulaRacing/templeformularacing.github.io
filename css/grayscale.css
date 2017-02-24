@@ -39,7 +39,7 @@ p {
   }
 }
 a {
-  color: #42DCA3;
+  color: #9E1B34;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -248,17 +248,39 @@ a:focus {
 .content-section {
   padding-top: 100px;
 }
-.download-section {
+
+
+
+
+
+.team-section {
   width: 100%;
   padding: 50px 0;
-  color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  color: black;
+  /*opacity: .5;*/
+  background: url(../img/team.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
+
+
+.vehicles-section {
+  width: 100%;
+  padding: 50px 0;
+  color: black;
+  /*opacity: .5;*/
+  background: url(../img/carsplash.jpg) no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
 #map {
   width: 100%;
   height: 200px;
@@ -268,7 +290,7 @@ a:focus {
   .content-section {
     padding-top: 250px;
   }
-  .download-section {
+  .vehicles-section {
     padding: 100px 0;
   }
   #map {
@@ -286,16 +308,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 1px solid #9E1B34;
+  color: #9E1B34;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 1px solid #9E1B34;
   outline: none;
   color: black;
-  background-color: #42DCA3;
+  background-color: #9E1B34;
 }
 ul.banner-social-buttons {
   margin-top: 0;
