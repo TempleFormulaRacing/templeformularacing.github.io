@@ -256,7 +256,7 @@ a:focus {
 .team-section {
   width: 100%;
   padding: 50px 0;
-  color: black;
+  color: white;
   /*opacity: .5;*/
   background: url(../img/team.jpg) no-repeat center center scroll;
   background-color: black;
@@ -270,7 +270,7 @@ a:focus {
 .vehicles-section {
   width: 100%;
   padding: 50px 0;
-  color: black;
+  color: white;
   /*opacity: .5;*/
   background: url(../img/carsplash.jpg) no-repeat center center scroll;
   background-color: black;
