@@ -17,7 +17,6 @@ html {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
   margin: 0 0 35px;
@@ -25,6 +24,13 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
+}
+h4 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 p {
   margin: 0 0 25px;
@@ -308,9 +314,10 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #9E1B34;
-  color: #9E1B34;
-  background-color: transparent;
+    border: 2px solid #9E1B34;
+    color: #9E1B34;
+    background-color: white;
+    opacity: 0.9;
 }
 .btn-default:hover,
 .btn-default:focus {
