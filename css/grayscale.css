@@ -264,7 +264,7 @@ a:focus {
   padding: 150px 0;
   color: white;
   /*opacity: .5;*/
-  background: url(../img/team.jpg) no-repeat center center scroll;
+  background: url(../img/team-2019.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -278,7 +278,7 @@ a:focus {
   padding: 50px 0;
   color: white;
   /*opacity: .5;*/
-  background: url(../img/carsplash.jpg) no-repeat center center scroll;
+  background: url(../img/vehicle-background.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
