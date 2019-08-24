@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\css",
-    "\\img"
+    "\\img",
+    "\\js"
   ],
-  "SelectedNode": "\\css\\grayscale.css",
+  "SelectedNode": "\\js\\grayscale.js",
   "PreviewInSolutionExplorer": false
 }
